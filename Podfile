@@ -13,10 +13,28 @@ target 'SearchImage' do
 	# pod RxSwift
 	pod 'RxSwift'
 
+	# pod RxCocoa
+	pod 'RxCocoa'
+
 	# pod RxKakaoSDKCommon
 	pod 'RxKakaoSDKCommon'
 
 	# pod SwiftyJson
 	pod 'SwiftyJSON'
+
+	# pod Alamofire
+	pod 'Alamofire'
+
+	# pod RxAlamofire
+	pod 'RxAlamofire'
+
+	# pod PKHUD (indicator)
+	pod 'PKHUD'
+
+	# pod swinject
+	pod 'Swinject'
+
+	# pod swinjectStoryboard
+	pod 'SwinjectStoryboard'
 
 end

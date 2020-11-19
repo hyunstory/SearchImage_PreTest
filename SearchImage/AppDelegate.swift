@@ -10,10 +10,20 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?  // 다크 모드 해제
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        // 테스트용 앱 -> 오직 라이트모드만, 다크모드 해제
+        if #available(iOS 13.0, *) {
+          self.window?.overrideUserInterfaceStyle = .light
+        }
+        
+        
+        
+        
         return true
     }
 

@@ -2,6 +2,7 @@ PODS:
   - Alamofire (5.4.0)
   - KakaoSDKCommon (2.0.4):
     - Alamofire (~> 5.1)
+  - PKHUD (5.3.0)
   - Realm (10.1.4):
     - Realm/Headers (= 10.1.4)
   - Realm/Headers (10.1.4)
@@ -24,17 +25,27 @@ PODS:
     - RxSwift (~> 5)
   - RxSwift (5.1.1)
   - SwiftyJSON (5.0.0)
+  - Swinject (2.7.1)
+  - SwinjectStoryboard (2.2.0):
+    - Swinject (~> 2.6)
 
 DEPENDENCIES:
+  - Alamofire
+  - PKHUD
   - RealmSwift
+  - RxAlamofire
+  - RxCocoa
   - RxKakaoSDKCommon
   - RxSwift
   - SwiftyJSON
+  - Swinject
+  - SwinjectStoryboard
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - KakaoSDKCommon
+    - PKHUD
     - Realm
     - RealmSwift
     - RxAlamofire
@@ -43,10 +54,13 @@ SPEC REPOS:
     - RxRelay
     - RxSwift
     - SwiftyJSON
+    - Swinject
+    - SwinjectStoryboard
 
 SPEC CHECKSUMS:
   Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
   KakaoSDKCommon: 070472d0638ea6b28684a23c195e47015349e51b
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
   Realm: 80f4fb2971ccb9adc27a47d0955ae8e533a7030b
   RealmSwift: 0e566ca714edb377bba8ea0811eafcea0b93734e
   RxAlamofire: aa949d345b1689eae02b7c7a217518878144f6df
@@ -55,7 +69,9 @@ SPEC CHECKSUMS:
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
+  SwinjectStoryboard: 32512ef16c2b0ff5b8f823b23539c4a50f6d3383
 
-PODFILE CHECKSUM: 14f59e59efade51eb4795651bc153d60749d82b9
+PODFILE CHECKSUM: ee2e26eaf25c43996b5e1c3182314a2764f4fec6
 
 COCOAPODS: 1.10.0
