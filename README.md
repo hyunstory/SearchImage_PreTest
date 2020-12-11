@@ -5,3 +5,20 @@
  - 즐겨찾기 switch버튼을 켜거나 끄게 되면, Realm 로컬DB에 저장 및 삭제를 수행
  - 즐겨찾기 화면에서 즐겨찾기에 추가한 이미지를 불러오며, switch 버튼을 통해 switch를 끄면 realm로컬 데이터 베이스에서 삭제 후, Tableview에서 삭제
  
+ #
+ ## RxMVVM 코드 참고
+[날씨 정보 검색 앱]
+
+
+## RxMVVM, MVVM 개념 참고
+[iOS MVVM 개념 참고]
+[Swift RxMVVM 개념 참고]
+
+
+#
+
+
+
+[날씨 정보 검색 앱]: <https://github.com/spacedema/RxMvvmWeatherApp>
+[iOS MVVM 개념 참고]: <https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52>
+[Swift RxMVVM 개념 참고]: <https://ntomios.tistory.com/13>
